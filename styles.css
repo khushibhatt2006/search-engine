@@ -1,0 +1,70 @@
+/* Dark Background */
+body {
+    background: linear-gradient(135deg, #0d1b2a, #1b263b, #0d1b2a);
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Clean centered NovaSeek title */
+.title-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00e5ff;
+    text-align: center;
+    text-shadow: none;   /* remove glow */
+    display: block;
+    margin: 20px auto;
+}
+
+
+
+
+/* Search Bar */
+.search-bar input {
+    background: #1b263b;
+    border: 2px solid #00e5ff;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    width: 500px;
+    box-shadow: 0 0 10px #00e5ff40;
+}
+
+.search-bar input::placeholder {
+    color: #aaaaaa;
+}
+
+/* Tabs (All | Images | News) */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tabs button {
+    background: transparent;
+    border: none;
+    color: #bbbbbb;
+    font-size: 1rem;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.tabs button.active {
+    color: #00e5ff;
+    border-bottom: 2px solid #00e5ff;
+    text-shadow: 0 0 8px #00e5ff;
+}
+
+/* Results Section */
+.results {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 20px #00000080;
+}

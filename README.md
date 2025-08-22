@@ -1,2 +1,10 @@
-# search-engine
-“Nova is a modern, fast, and intuitive web-based search engine designed to provide users with relevant and accurate search results instantly. Featuring a clean and minimalistic interface, Nova allows users to quickly find information, websites, and resources with ease. 
+# Mini Google (Streamlit)
+
+A simple Google-like search engine built with **Python + Streamlit**.
+
+## 🚀 Setup
+```bash
+git clone <your-repo>
+cd search_app
+pip install -r requirements.txt
+streamlit run app.py
